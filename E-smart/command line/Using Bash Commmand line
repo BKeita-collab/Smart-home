@@ -1,0 +1,94 @@
+Using Bash Commmand line
+install zsh
+Alt+b 
+Alt+f
+cmd+d
+cmd+w
+ctrl+a
+ctrl+e
+alt+d
+
+shift+cmd+d
+
+Wrap up 
+
+whoami
+cal
+man
+mkdir example-3
+
+cd ~ 
+cd -
+rm -rf 
+
+mv from_folder to_folder
+tree -l example
+mv name_folder rename_folder
+touch
+echo " " > filename
+echo " " >> filename
+
+cat filename 
+less filename
+head filename
+tail filename
+
+cp 
+
+find . -name filename 
+find . type -f -name filename 
+find . type -d -name filename 
+find . type -d -iname filename 
+
+grep 
+grep -rn  "end" examples
+grep -rni -A 1 "order" examples
+
+Useful commands
+history
+! number_history
+|history | grep "grep"
+!! 
+cat query-copy.sql | grep "id"
+ctrl + R
+
+------Using VIM--------------------------------
+
+curl -O : testing api , ....
+vim test.txt => 
+(
+    : 
+    set number 
+    syntax on 
+    : quit ! 
+    h : left 
+    l : right 
+    j : down 
+    k : up 
+    w : following word 
+    b : previous word 
+    0 : beginning of line
+    $ : end of line
+    8gg : go to line 8
+    u : undo 
+    cltrl+r : undo 
+    o : insert after the line 
+    shift + o : insert before the line
+    :w : write modification
+    :wq : write and quit the program
+    G
+    d : 
+    dd : cut or delete line 
+    4dd : delete 4 lines 
+    dG : delete all 
+    p: paste 
+    ----Find and Replace ------
+    / :search 
+    n :next 
+    ctrl +n : previous 
+    :%s/to_replace/replacer/gc : replacement with confirmation
+
+    ------ create file ---------------------------
+    vim filename.txt 
+    vim .vimrc 
+)
