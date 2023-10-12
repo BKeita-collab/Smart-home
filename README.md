@@ -11,5 +11,5 @@ This project is developed in python
 # Make geostatistics 
 # Script real-time update in Python 
 # Create an efficient dashboard 
-
+# Build a smart home statistic dynamically
 Publish in a proper way
